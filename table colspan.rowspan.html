@@ -1,0 +1,50 @@
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid red
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    th {
+        height: 50px;
+    }
+    
+    th,
+    td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: seashell;
+    }
+    
+    tr :hover {
+        background-color: red;
+    }
+    
+    tr :nth-child(even) {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>Language</th>
+        <th>Framework</th>
+    </tr>
+    <tr>
+        <td rowspan="2">PHP</td>
+        <td>Laravel</td>
+    </tr>
+    <tr>
+        <td>Codeigniter</td>
+    </tr>
+    <td rowspan="2">Ruby</td>
+    <td>Ruby on Rails</td>
+    <tr>
+        <td>Sinatra</td>
+    </tr>
+</table>
